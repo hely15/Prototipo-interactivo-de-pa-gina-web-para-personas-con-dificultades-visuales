@@ -9,7 +9,7 @@ body {
 
 }
 h3 {
-    color: black;
+    color: #000000;
     font-family: "RobotoCondensed-Bold";
 }
 
@@ -173,3 +173,58 @@ h3 {
     justify-content: flex-end;
     flex-direction: column;
 }
+
+/************* Section 1 Finalizado *******************************************************************/
+
+
+.section__como-jugar {
+    width: 1101px;
+    height: 1393px;
+    position: absolute;
+    top: 819px;
+    left: 169px;
+    gap: 83px;
+    display: flex;
+    flex-direction: column;
+}
+
+.div__como-jugar-text {
+    width: 654px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 393px;
+    
+
+    h1 {
+        width: 363px;
+        height: 71px;
+        font-size: 64px;
+        font-family: "RobotoCondensed-Bold";
+    }
+
+    p {
+        width: 654px;
+        height: 146px;
+        font-size: 36px;
+        font-family: "RobotoCondensed-Regular";
+    }
+}
+
+.div__textHoriz {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 32px;
+
+    p {
+        font-size: 28px;
+        font-family: "RobotoCondensed-Regular";
+    }
+}
+
+/*************Section Como Jugar Finalizado *******************************************************************/
