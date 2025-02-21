@@ -311,3 +311,27 @@ h3 {
         font-size: 36px;
     }
 }
+
+
+.footer {
+    width: 1425px;
+    height: 64px;
+    position: absolute;
+    top: 3847px;
+    background-color: #000000;
+}
+
+.div__infFooter {
+    display: flex;
+    justify-content: space-between;
+    p {
+        font-family: "RobotoCondensed-Regular";
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+}
+.P__creada {
+    font-family: "RobotoCondensed-Regular";
+    font-size: 24px;
+    color: #707070;
+}
