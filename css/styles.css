@@ -197,6 +197,7 @@ h3 {
     justify-content: space-between;
     position: relative;
     padding-left: 393px;
+    gap: 41px;
     
 
     h1 {
@@ -228,3 +229,85 @@ h3 {
 }
 
 /*************Section Como Jugar Finalizado *******************************************************************/
+
+
+
+.section__apoyanos {
+    width: 1167px;
+    height: 438px;
+    position: absolute;
+    top: 2407px;
+    left: 142px;
+    display: flex;
+    gap: 37px;
+}
+
+.div__textApoyanos {
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+
+    h1 {
+        font-size: 72px;
+        font-family: "RobotoCondensed-Bold";
+    }
+
+    p {
+        font-size: 36px;
+        font-family: "RobotoCondensed-Regular";
+    }
+}
+
+.button {
+    width: 282px;
+    height: 57px;
+    border-radius: 32.5px;
+    background-color: #000000;
+
+
+    h1 {
+        color: #FFFFFF;
+    }
+}
+
+.div__imgButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.section__sobrenosotros {
+    width: 1160px;
+    height: 592px;
+    position: absolute;
+    top: 3024px;
+    left: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    img {
+        width: 357px;
+        height: 330px;
+    }
+}
+
+.div__textSobre {
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+
+    h1 {
+        font-family: "RobotoCondensed-Bold";
+        font-size: 72px;
+    }
+
+    p {
+        font-family: "RobotoCondensed-Regular";
+        font-size: 36px;
+    }
+}
